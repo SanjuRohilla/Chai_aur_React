@@ -9,7 +9,18 @@ function App() {
   const addValue = () => {
     //counter = counter +1
     if(counter < 20){
-    setCounter(counter +1);
+    //setCounter(counter +1);
+    // setCounter(counter +1);
+    // setCounter(counter +1);
+    // setCounter(counter +1);    // aisa chahe ik baar likho ya chaar barr , ik hi baar update hoga kyonki batch mai kaam hota
+
+    //but if we want to add like this then pass previousvalue
+    setCounter(prevCounter => prevCounter +1)
+    setCounter(prevCounter => prevCounter +1)
+    setCounter(prevCounter => prevCounter +1)
+    setCounter(prevCounter => prevCounter +1)
+
+
     }
   }
 
