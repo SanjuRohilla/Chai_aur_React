@@ -20,13 +20,10 @@ const passwordRef = useRef(null)
     if (characterAllowed) {
       str += "~!@#$%^&*-_+=[]{}`"
     }
-    for(let i = 1 ; i<= length; i++){
-      let  char = Math.floor(Math.random()*str.length +1)
-      pass  = pass + str.charAt(char);
-    }
-    setPassword(pass)
+    for(let i = 1 ; i<=Array.length;i++)
 
-  }, [length , numberAllowed , characterAllowed , setPassword])
+
+    }, [length , numberAllowed , characterAllowed , setPassword])
 
   const copyPasswordToClipboard = useCallback(() => {
     passwordRef.current?.select()
