@@ -20,8 +20,12 @@ const passwordRef = useRef(null)
     if (characterAllowed) {
       str += "~!@#$%^&*-_+=[]{}`"
     }
-    for(let i = 1 ; i<=Array.length;i++)
-
+    for(let i = 1 ; i<= length;i++){
+          let char = Math.floor(Math.random()*str.length+1)
+          pass = str.charAt(char) + pass
+    }
+    
+    setPassword(pass)
 
     }, [length , numberAllowed , characterAllowed , setPassword])
 
