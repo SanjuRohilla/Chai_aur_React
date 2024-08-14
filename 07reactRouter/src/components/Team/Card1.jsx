@@ -1,5 +1,6 @@
 import React from 'react'
 import './Card1.css'
+import React from 'react';
 
 
 
@@ -13,7 +14,7 @@ const Card1 = ({username = "Name" , insta = "https://instagram.com" , linkedin =
     <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="\src\assets\pexels-anastasiya-gepp-654466-1462630.jpg" className='rounded-xl' alt="Avatar"   />
+      <img src="07reactRouter\src\assets\pexels-anastasiya-gepp-654466-1462630.jpg" className='rounded-xl' alt="Avatar"   />
     </div>
     <div class="flip-card-back"  >
       {/* <h1>John Doe</h1>
