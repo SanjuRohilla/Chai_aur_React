@@ -2,7 +2,7 @@
 h1{
   background-size: cover;
   background-clip: text;
-  background-image: url(\src\assets\Photo.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg37IRmQ1WGNalyarRiurjHQeRdppLLO7sYQ&s);
   -webkit-background-clip: text;
   color: transparent;
 }

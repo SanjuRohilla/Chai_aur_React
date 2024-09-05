@@ -11,7 +11,7 @@ export default function Team(){
     return(
         <>
             <div className="flex-col py-10 bg-purple-50 bg-[url('\src\assets\svgs\b58072b9-9ab9-4f4e-afaf-9cdb524b46a3.jpg')]">
-            <h1 className="text-center text-5xl font-extrabold   ">OUR TEAM</h1>
+            <h1 className="text-center text-7xl font-extrabold   ">OUR TEAM</h1>
             <div>
             <h2 className="text-center text-3xl mt-4">Overall Coordinators</h2>
             <div className=" grid items-center sm:grid-cols-3  px-11 grid-cols-1   mt-10 gap-x-8 gap-y-6">
